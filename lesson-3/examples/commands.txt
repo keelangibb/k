@@ -1,0 +1,9 @@
+kast --output kore and.bool
+kast --output kast and.bool
+kast --output kast ./code/and-or-left.bool -d d-kompiled
+
+// This will make use of Bison's LR(1) parser generator.
+kompile --gen-bison-parser c-grammar.k
+
+// This is the GLR version
+kompile --gen-glr-bison-parser c-grammar.k
