@@ -1,0 +1,4 @@
+kompile a.k
+krun banana.color -d a-kompiled
+krun -cPGM='colorOf(Banana())'
+krun -cPGM='colorOf(Banana())' --definition 'lesson-02-b-kompiled'
